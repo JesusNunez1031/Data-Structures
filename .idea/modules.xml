@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Data-Structures.iml" filepath="$PROJECT_DIR$/.idea/Data-Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" filepath="$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" />
     </modules>
   </component>
 </project>
