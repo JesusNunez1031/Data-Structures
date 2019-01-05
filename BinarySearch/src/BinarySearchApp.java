@@ -49,8 +49,9 @@ public class BinarySearchApp {
 
     public void display(){
         for(int i = 0; i < nElems;i++){
-            System.out.println(array[i] + " ");
+            System.out.print(array[i] + " ");
         }
+        System.out.println("");
     }
 
     public static void main(String[] args){
