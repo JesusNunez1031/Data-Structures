@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62440c91-b881-4ffc-ac69-fd064b10938b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTable/HashTable.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/src/DataItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/src/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/src/HashTableApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/Heap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/src/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/src/HeapApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/src/BinaryTreeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,10 +19,12 @@
     <session id="-317750545">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -46,13 +44,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17875" />
+          <entry key="JAVA" value="22891" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinaryTree/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinaryTree/src/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="55" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1849#1850#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="e#3262#3263#0" expanded="true" />
+                <element signature="e#3336#3337#0" expanded="true" />
+                <element signature="e#3723#3724#0" expanded="true" />
+                <element signature="e#3762#3763#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BinaryTree/src/BinaryTreeApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +125,9 @@
         <option value="$PROJECT_DIR$/Heap/src/Heap.java" />
         <option value="$PROJECT_DIR$/Heap/src/HeapApp.java" />
         <option value="$PROJECT_DIR$/SortingAlgorithms/src/HeapSortApp.java" />
+        <option value="$PROJECT_DIR$/BinaryTree/src/Node.java" />
+        <option value="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/BinaryTree/src/BinaryTreeApp.java" />
       </list>
     </option>
   </component>
@@ -103,9 +143,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1069" />
-    <option name="width" value="858" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1121" />
+    <option name="width" value="806" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -113,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,18 +161,31 @@
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546765109333" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546931015925" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -158,17 +212,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapApp">
-    <configuration name="BinarySearchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchApp" />
-      <module name="BinarySearch" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashTableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTableApp" />
-      <module name="HashTable" />
+  <component name="RunManager" selected="Application.BinaryTreeApp">
+    <configuration name="BinaryTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeApp" />
+      <module name="BinaryTree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,34 +227,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeApp" />
-      <module name="SortingAlgorithms" />
+    <configuration name="BinaryTree.checkIfDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryTree" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
+      <option name="METHOD_NAME" value="checkIfDel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
-      <module name="SortingAlgorithms" />
+    <configuration name="BinaryTree.checkInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryTree" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
+      <option name="METHOD_NAME" value="checkInOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryTree" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
+      <option name="METHOD_NAME" value="givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchApp" />
-      <item itemvalue="Application.MergeApp" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.HashTableApp" />
       <item itemvalue="Application.HeapApp" />
+      <item itemvalue="JUnit.BinaryTree.checkIfDel" />
+      <item itemvalue="JUnit.BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
+      <item itemvalue="JUnit.BinaryTree.checkInOrder" />
+      <item itemvalue="Application.BinaryTreeApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeApp" />
+        <item itemvalue="JUnit.BinaryTree.checkInOrder" />
+        <item itemvalue="JUnit.BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
+        <item itemvalue="JUnit.BinaryTree.checkIfDel" />
         <item itemvalue="Application.HeapApp" />
-        <item itemvalue="Application.HashTableApp" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MergeApp" />
-        <item itemvalue="Application.BinarySearchApp" />
       </list>
     </recent_temporary>
   </component>
@@ -222,17 +285,43 @@
       <option name="presentableId" value="Default" />
       <updated>1546573702884</updated>
       <workItem from="1546573704703" duration="16570000" />
-      <workItem from="1546660230697" duration="20061000" />
+      <workItem from="1546660230697" duration="20950000" />
+      <workItem from="1546838378329" duration="627000" />
+      <workItem from="1546920313814" duration="5397000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BinaryTree_checkIfDel - 2019.01.07 at 22h 16m 31s.xml">
+      <configuration name="BinaryTree.checkIfDel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems - 2019.01.07 at 22h 19m 17s.xml">
+      <configuration name="BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_checkInOrder - 2019.01.07 at 22h 35m 48s.xml">
+      <configuration name="BinaryTree.checkInOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_checkInOrder - 2019.01.07 at 22h 36m 39s.xml">
+      <configuration name="BinaryTree.checkInOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_checkInOrder - 2019.01.07 at 22h 40m 22s.xml">
+      <configuration name="BinaryTree.checkInOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_checkInOrder - 2019.01.07 at 22h 40m 30s.xml">
+      <configuration name="BinaryTree.checkInOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTree_checkInOrder - 2019.01.07 at 22h 40m 54s.xml">
+      <configuration name="BinaryTree.checkInOrder" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36631000" />
+    <option name="totallyTimeSpent" value="43544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1069" y="0" width="858" height="1047" extended-state="0" />
+    <frame x="1121" y="0" width="806" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17828418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -242,7 +331,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49874687" visible="true" weight="0.23522976" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49874687" visible="true" weight="0.23522976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="45" column="74" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,10 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-403">
           <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -390,12 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,9 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,10 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -424,32 +493,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SortingAlgorithms/src/HeapSortApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortingAlgorithms/src2/Sorting.java">
+    <entry file="file://$PROJECT_DIR$/SortingAlgorithms/src/HeapSortApp.java" />
+    <entry file="file://$PROJECT_DIR$/SortingAlgorithms/src2/Sorting.java" />
+    <entry file="file://$PROJECT_DIR$/BinaryTree/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree/src/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#3262#3263#0" expanded="true" />
+            <element signature="e#3336#3337#0" expanded="true" />
+            <element signature="e#3723#3724#0" expanded="true" />
+            <element signature="e#3762#3763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree/src/BinaryTreeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
