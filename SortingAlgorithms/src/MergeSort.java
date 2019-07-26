@@ -88,10 +88,12 @@ public class MergeSort {
         array.insert(108);
         array.insert(36);
 
+        System.out.print("Unsorted array: " );
         array.display();
 
         array.mergeSort();
 
+        System.out.print("Sorted array: " );
         array.display();
     }
 }
