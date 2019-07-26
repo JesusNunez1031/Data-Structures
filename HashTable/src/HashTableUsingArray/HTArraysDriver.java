@@ -1,5 +1,3 @@
-package HashTableUsingArray;
-
 import java.util.Scanner;
 
 class HTArraysDriver {

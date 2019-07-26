@@ -1,5 +1,3 @@
-package HashTableUsingArray;
-
 import java.util.*;
 
 class HashTableArrays {
