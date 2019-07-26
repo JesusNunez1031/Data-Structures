@@ -1,2 +1,2 @@
 # Data-Structures
-Implementation of various data Structures using primary Java. Other languages might be included
+Implementation of various data Structures and Algorithms using Java.
