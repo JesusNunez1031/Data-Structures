@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 class HashTableArrays {
     int[] arr;

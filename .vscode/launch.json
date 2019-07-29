@@ -1,5 +1,15 @@
 {
     "configurations": [
+
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HTArraysDriver",
+            "request": "launch",
+            "mainClass": "HTArraysDriver",
+            "projectName": "Data-Structures_cb523649",
+            "console": "integratedTerminal"
+
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - HashTableEz",

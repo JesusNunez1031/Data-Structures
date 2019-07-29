@@ -11,8 +11,11 @@ class HTArraysDriver {
         print("Hash Table Test\n\n");
         print("Enter size: ");
 
+        int size = input.nextInt();
+
+
         // Hash Table object
-        HashTableArrays table = new HashTableArrays(input.nextInt());
+        HashTableArrays table = new HashTableArrays(size);
 
         char ch;
         // Preform the Hash Table operations
