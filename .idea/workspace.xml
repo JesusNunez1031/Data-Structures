@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62440c91-b881-4ffc-ac69-fd064b10938b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTableArrays/HashTableArrays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTableArrays/src/HTADriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTableArrays/src/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/Memoization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional_Recusrsion/Functional_Recusrsion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional_Recusrsion/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SamplePrograms/src/RomanArabicConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SamplePrograms/src/RomanArabicConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SamplePrograms/src/RomanNumeral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/HashTable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/HashTable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HTArraysDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HTArraysDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HashTableArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HashTableArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +42,7 @@
   <component name="ProjectId" id="1OhJho2R3KPPrgyGdGTrqIds1wh" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -48,11 +52,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="play.paths.configuration" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Diff &amp; Merge" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -71,65 +76,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HTADriver">
-    <configuration name="BinaryTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeApp" />
-      <module name="BinaryTree" />
+  <component name="RunManager" selected="Application.RomanArabicConverter">
+    <configuration name="Memoization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Memoization" />
+      <module name="DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTADriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HTADriver" />
-      <module name="HashTableArrays" />
+    <configuration name="RomanArabicConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanArabicConverter" />
+      <module name="SamplePrograms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree.checkIfDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryTree" />
+    <configuration name="RomanArabicConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SamplePrograms" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
-      <option name="METHOD_NAME" value="checkIfDel" />
+      <option name="MAIN_CLASS_NAME" value="RomanArabicConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanArabicConverterTest.given1999Arabic_WhenConvertingToRoman_ThenReturnMCMXCIX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SamplePrograms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanArabicConverterTest" />
+      <option name="METHOD_NAME" value="given1999Arabic_WhenConvertingToRoman_ThenReturnMCMXCIX" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree.checkInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryTree" />
+    <configuration name="RomanArabicConverterTest.given2018Roman_WhenConvertingToArabic_ThenReturn2018" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SamplePrograms" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
-      <option name="METHOD_NAME" value="checkInOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryTree" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
-      <option name="METHOD_NAME" value="givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
+      <option name="MAIN_CLASS_NAME" value="RomanArabicConverterTest" />
+      <option name="METHOD_NAME" value="given2018Roman_WhenConvertingToArabic_ThenReturn2018" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeApp" />
-      <item itemvalue="JUnit.BinaryTree.checkIfDel" />
-      <item itemvalue="JUnit.BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
-      <item itemvalue="JUnit.BinaryTree.checkInOrder" />
-      <item itemvalue="Application.HTADriver" />
+      <item itemvalue="Application.Memoization" />
+      <item itemvalue="JUnit.RomanArabicConverterTest" />
+      <item itemvalue="JUnit.RomanArabicConverterTest.given2018Roman_WhenConvertingToArabic_ThenReturn2018" />
+      <item itemvalue="JUnit.RomanArabicConverterTest.given1999Arabic_WhenConvertingToRoman_ThenReturnMCMXCIX" />
+      <item itemvalue="Application.RomanArabicConverter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HTADriver" />
-        <item itemvalue="Application.BinaryTreeApp" />
-        <item itemvalue="JUnit.BinaryTree.checkInOrder" />
-        <item itemvalue="JUnit.BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
-        <item itemvalue="JUnit.BinaryTree.checkIfDel" />
+        <item itemvalue="Application.RomanArabicConverter" />
+        <item itemvalue="JUnit.RomanArabicConverterTest.given1999Arabic_WhenConvertingToRoman_ThenReturnMCMXCIX" />
+        <item itemvalue="JUnit.RomanArabicConverterTest.given2018Roman_WhenConvertingToArabic_ThenReturn2018" />
+        <item itemvalue="JUnit.RomanArabicConverterTest" />
+        <item itemvalue="Application.Memoization" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +151,7 @@
       <workItem from="1546660230697" duration="20950000" />
       <workItem from="1546838378329" duration="627000" />
       <workItem from="1546920313814" duration="5397000" />
-      <workItem from="1564424126253" duration="4496000" />
+      <workItem from="1564424126253" duration="15559000" />
     </task>
     <servers />
   </component>
@@ -164,80 +168,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Data-Structures</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
