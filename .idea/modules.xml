@@ -4,11 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodingQuestions/CodingQuestions.iml" filepath="$PROJECT_DIR$/CodingQuestions/CodingQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data-Structures.iml" filepath="$PROJECT_DIR$/.idea/Data-Structures.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" filepath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Functional_Recusrsion/Functional_Recusrsion.iml" filepath="$PROJECT_DIR$/Functional_Recusrsion/Functional_Recusrsion.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/HashTable/HashTable.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashTableArrays/HashTableArrays.iml" filepath="$PROJECT_DIR$/HashTableArrays/HashTableArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashTableBinaryTree/HashTableBinaryTree.iml" filepath="$PROJECT_DIR$/HashTableBinaryTree/HashTableBinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Heap/Heap.iml" filepath="$PROJECT_DIR$/Heap/Heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" filepath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" />

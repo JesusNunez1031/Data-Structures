@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62440c91-b881-4ffc-ac69-fd064b10938b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/src/Memoization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functional_Recusrsion/Functional_Recusrsion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functional_Recusrsion/src/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SamplePrograms/src/RomanArabicConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SamplePrograms/src/RomanArabicConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SamplePrograms/src/RomanNumeral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingQuestions/CodingQuestions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingQuestions/src/Sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingQuestions/src/SentenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTableBinaryTree/HashTableBinaryTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTableBinaryTree/src/BTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTableBinaryTree/src/HTCBTDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTableBinaryTree/src/HashTableChainingBinaryTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,10 +74,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RomanArabicConverter">
-    <configuration name="Memoization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Memoization" />
-      <module name="DynamicProgramming" />
+  <component name="RunManager" selected="Application.HTCBTDriver">
+    <configuration name="HTCBTDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HTCBTDriver" />
+      <module name="HashTableBinaryTree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,11 +89,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanArabicConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamplePrograms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanArabicConverterTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Sentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sentence" />
+      <module name="CodingQuestions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,30 +106,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanArabicConverterTest.given2018Roman_WhenConvertingToArabic_ThenReturn2018" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamplePrograms" />
+    <configuration name="SentenceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingQuestions" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanArabicConverterTest" />
-      <option name="METHOD_NAME" value="given2018Roman_WhenConvertingToArabic_ThenReturn2018" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="SentenceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Memoization" />
-      <item itemvalue="JUnit.RomanArabicConverterTest" />
-      <item itemvalue="JUnit.RomanArabicConverterTest.given2018Roman_WhenConvertingToArabic_ThenReturn2018" />
       <item itemvalue="JUnit.RomanArabicConverterTest.given1999Arabic_WhenConvertingToRoman_ThenReturnMCMXCIX" />
       <item itemvalue="Application.RomanArabicConverter" />
+      <item itemvalue="Application.Sentence" />
+      <item itemvalue="TestNG.SentenceTest" />
+      <item itemvalue="Application.HTCBTDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HTCBTDriver" />
+        <item itemvalue="TestNG.SentenceTest" />
+        <item itemvalue="Application.Sentence" />
         <item itemvalue="Application.RomanArabicConverter" />
         <item itemvalue="JUnit.RomanArabicConverterTest.given1999Arabic_WhenConvertingToRoman_ThenReturnMCMXCIX" />
-        <item itemvalue="JUnit.RomanArabicConverterTest.given2018Roman_WhenConvertingToArabic_ThenReturn2018" />
-        <item itemvalue="JUnit.RomanArabicConverterTest" />
-        <item itemvalue="Application.Memoization" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +148,7 @@
       <workItem from="1546660230697" duration="20950000" />
       <workItem from="1546838378329" duration="627000" />
       <workItem from="1546920313814" duration="5397000" />
-      <workItem from="1564424126253" duration="15559000" />
+      <workItem from="1564424126253" duration="29380000" />
     </task>
     <servers />
   </component>
