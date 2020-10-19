@@ -12,7 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" filepath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" filepath="$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
     </modules>
   </component>
 </project>

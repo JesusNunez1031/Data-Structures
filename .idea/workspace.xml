@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62440c91-b881-4ffc-ac69-fd064b10938b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linked List/Linked List.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/src/LinkedListDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/src/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/DriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/src/HashTableApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/DriverTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,22 +176,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603141127066" />
-    <state width="1121" height="281" key="GridCell.Tab.0.bottom" timestamp="1603146912434">
+    <state width="1121" height="677" key="GridCell.Tab.0.bottom" timestamp="1603147290514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1121" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912434" />
-    <state width="1121" height="281" key="GridCell.Tab.0.center" timestamp="1603146912433">
+    <state width="1121" height="677" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603147290514" />
+    <state width="1121" height="677" key="GridCell.Tab.0.center" timestamp="1603147290514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1121" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912433" />
-    <state width="1121" height="281" key="GridCell.Tab.0.left" timestamp="1603146912433">
+    <state width="1121" height="677" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603147290514" />
+    <state width="1121" height="677" key="GridCell.Tab.0.left" timestamp="1603147290514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1121" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912433" />
-    <state width="1121" height="281" key="GridCell.Tab.0.right" timestamp="1603146912433">
+    <state width="1121" height="677" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603147290514" />
+    <state width="1121" height="677" key="GridCell.Tab.0.right" timestamp="1603147290514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1121" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912433" />
+    <state width="1121" height="677" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603147290514" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1603140713559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
