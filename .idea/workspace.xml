@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="62440c91-b881-4ffc-ac69-fd064b10938b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTableArrays/HashTableArrays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTableArrays/src/HTADriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTableArrays/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/Linked List.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/src/LinkedListDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linked List/src/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/DriverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/HashTable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/HashTable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HTArraysDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HTArraysDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HashTableArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableUsingArray/HashTableArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashTable/src/HashTableApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/src/HashTableApp.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +55,24 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1OhJho2R3KPPrgyGdGTrqIds1wh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546931015925" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -59,22 +86,17 @@
       <recent name="C:\Users\Jesus\Desktop\Data-Structures\SortingAlgorithms" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.HTADriver">
+  <component name="RunManager" selected="Application.LinkedListDriver">
     <configuration name="BinaryTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeApp" />
       <module name="BinaryTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DriverTest" />
+      <module name="Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,53 +108,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree.checkIfDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryTree" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
-      <option name="METHOD_NAME" value="checkIfDel" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="LinkedListDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListDriver" />
+      <module name="Linked List" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree.checkInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryTree" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
-      <option name="METHOD_NAME" value="checkInOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryTree" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree" />
-      <option name="METHOD_NAME" value="givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <module name="SortingAlgorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.BinaryTreeApp" />
-      <item itemvalue="JUnit.BinaryTree.checkIfDel" />
-      <item itemvalue="JUnit.BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
-      <item itemvalue="JUnit.BinaryTree.checkInOrder" />
       <item itemvalue="Application.HTADriver" />
+      <item itemvalue="Application.DriverTest" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.LinkedListDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListDriver" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.DriverTest" />
         <item itemvalue="Application.HTADriver" />
         <item itemvalue="Application.BinaryTreeApp" />
-        <item itemvalue="JUnit.BinaryTree.checkInOrder" />
-        <item itemvalue="JUnit.BinaryTree.givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems" />
-        <item itemvalue="JUnit.BinaryTree.checkIfDel" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -148,6 +155,12 @@
       <workItem from="1546838378329" duration="627000" />
       <workItem from="1546920313814" duration="5397000" />
       <workItem from="1564424126253" duration="4496000" />
+      <workItem from="1571078224389" duration="239000" />
+      <workItem from="1571078751924" duration="5210000" />
+      <workItem from="1573237708270" duration="3758000" />
+      <workItem from="1573252044950" duration="8000" />
+      <workItem from="1599291061907" duration="34000" />
+      <workItem from="1599291110994" duration="36000" />
     </task>
     <servers />
   </component>
@@ -164,80 +177,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Data-Structures</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1603141127066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603141127066" />
+    <state width="1121" height="281" key="GridCell.Tab.0.bottom" timestamp="1603146912434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1121" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912434" />
+    <state width="1121" height="281" key="GridCell.Tab.0.center" timestamp="1603146912433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1121" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912433" />
+    <state width="1121" height="281" key="GridCell.Tab.0.left" timestamp="1603146912433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1121" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912433" />
+    <state width="1121" height="281" key="GridCell.Tab.0.right" timestamp="1603146912433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1121" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603146912433" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1603140713559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603140713559" />
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1599291113968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599291113968" />
+    <state x="342" y="139" key="new project wizard" timestamp="1603140771138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603140771138" />
   </component>
 </project>

@@ -1,9 +1,11 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.lang.annotation.Target;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BinaryTree {
