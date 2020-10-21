@@ -20,32 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62440c91-b881-4ffc-ac69-fd064b10938b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Deque/Deque.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deque/src/ArrayDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deque/src/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deque/src/DequeDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deque/src/ListDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List/src/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/src/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/src/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/Stack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/src/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/src/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/src/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/src/StackDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data-Structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data-Structures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked List/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/src/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked List/src/LinkedListDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/src/LinkedListDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked List/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linked List/src/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/Queue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/src/PriorityQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/src/PriorityQApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/src/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/src/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/src/QueueApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/StackApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deque/src/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Deque/src/ArrayDeque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,17 +79,17 @@
       <recent name="C:\Users\Jesus\Desktop\Data-Structures\SortingAlgorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DequeDriver">
-    <configuration name="DequeDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DequeDriver" />
-      <module name="Deque" />
+  <component name="RunManager" selected="Application.BinaryTreeApp">
+    <configuration name="BinaryTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeApp" />
+      <module name="BinaryTree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DriverTest" />
-      <module name="Test" />
+    <configuration name="DequeDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DequeDriver" />
+      <module name="Deque" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,19 +116,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DriverTest" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.LinkedListDriver" />
       <item itemvalue="Application.StackDriver" />
       <item itemvalue="Application.DequeDriver" />
+      <item itemvalue="Application.BinaryTreeApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeApp" />
         <item itemvalue="Application.DequeDriver" />
         <item itemvalue="Application.StackDriver" />
         <item itemvalue="Application.LinkedListDriver" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.DriverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,22 +189,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603236850784" />
-    <state width="1033" height="502" key="GridCell.Tab.0.bottom" timestamp="1603245019696">
+    <state width="1033" height="314" key="GridCell.Tab.0.bottom" timestamp="1603245523705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1033" height="502" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603245019696" />
-    <state width="1033" height="502" key="GridCell.Tab.0.center" timestamp="1603245019696">
+    <state width="1033" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603245523705" />
+    <state width="1033" height="314" key="GridCell.Tab.0.center" timestamp="1603245523704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1033" height="502" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603245019696" />
-    <state width="1033" height="502" key="GridCell.Tab.0.left" timestamp="1603245019696">
+    <state width="1033" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603245523704" />
+    <state width="1033" height="314" key="GridCell.Tab.0.left" timestamp="1603245523703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1033" height="502" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603245019696" />
-    <state width="1033" height="502" key="GridCell.Tab.0.right" timestamp="1603245019696">
+    <state width="1033" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603245523703" />
+    <state width="1033" height="314" key="GridCell.Tab.0.right" timestamp="1603245523704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1033" height="502" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603245019696" />
+    <state width="1033" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603245523704" />
     <state width="1033" height="347" key="GridCell.Tab.1.bottom" timestamp="1603244763926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
