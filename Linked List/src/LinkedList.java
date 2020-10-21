@@ -125,7 +125,7 @@ public class LinkedList<E> {
     }
 
     //Removes and returns the first node
-    public void removeFirst() {
+    public E removeFirst() {
         if (isEmpty()) {
             System.out.println("List is empty");
         }
@@ -136,10 +136,11 @@ public class LinkedList<E> {
         if (size == 0) {
             tail = null;
         }
+        return node;
     }
 
     //Delete the last node in the list
-    public void removeLast() {
+    public E removeLast() {
         if (isEmpty()) {
             System.out.println("List is empty");
         }
@@ -151,9 +152,11 @@ public class LinkedList<E> {
         }
         //save 2nd to last value as new tail
         tail = iter;
+        E deleted = iter.next.val;      //save the reference to the removed last node
         //point it to null to lose the reference to the node we want to delete
         iter.next = null;
         size--;
+        return deleted;
     }
 
     //Function to display elements in list

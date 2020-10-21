@@ -60,8 +60,8 @@ public class LinkedListDriver {
                     System.out.println("Last node: " + list.getTail());
                     break;
                 case 9:
-                    list.removeFirst();
-                    System.out.println("First value was deleted, new list: ");
+                    int val = list.removeFirst();
+                    System.out.println("First value " + val + " was deleted, new list: ");
                     break;
                 case 10:
                     list.removeLast();
