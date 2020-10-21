@@ -39,6 +39,9 @@ public class ArrayDeque<E> implements Deque<E> {
           Ex: if length is 10 and we start at f = 0, (0 + 0) % 10 = 0[first index], we add a new item, f is still 0
           since f is the front so we insert at, (0 + 1) % 10 = 1[second index]...and so on, f changes when we dequeue
          */
+        /*in order to avoid possible negative indexes, we use the formula (f - 1 + N) where N is ihe length of the array,
+          this allows us to properly wrap around the list
+         */
         f = (f - 1 + data.length) % data.length;
         data[f] = e;
         size++;

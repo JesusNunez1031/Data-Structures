@@ -13,15 +13,15 @@ public class BinaryTreeApp {
 
         System.out.println("In-order: ");
         bt.traverseInOrder(bt.root);
-        System.out.println(" ");
+        System.out.println();
 
         System.out.println("Pre-order: ");
         bt.traversePreOrder(bt.root);
-        System.out.println(" ");
+        System.out.println();
 
         System.out.println("Post-order: ");
         bt.traversePostOrder(bt.root);
-        System.out.println(" ");
+        System.out.println();
 
         System.out.println("Level-oder(Breadth-First): ");
         bt.traverseBreadthFirst();
