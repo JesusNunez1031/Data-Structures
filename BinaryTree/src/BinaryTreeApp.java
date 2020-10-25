@@ -1,6 +1,6 @@
 public class BinaryTreeApp {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         BinaryTree bt = new BinaryTree();
 
         bt.add(6);
@@ -25,5 +25,7 @@ public class BinaryTreeApp {
 
         System.out.println("Level-oder(Breadth-First): ");
         bt.traverseBreadthFirst();
+
+        System.out.println("\nMax depth of tree is: " + bt.getMaxDepth(bt.root));
     }
 }

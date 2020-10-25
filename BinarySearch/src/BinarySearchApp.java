@@ -3,58 +3,57 @@ public class BinarySearchApp {
     private long[] array;   //ref to the array
     private int nElems;     //number of data items
 
-    public BinarySearchApp(int max){
+    public BinarySearchApp(int max) {
         array = new long[max];  //create the array of size max
         nElems = 0;
     }
 
-    public int size(){
+    public int size() {
         return nElems;
     }
 
-    public int find(long searchKey){
-        return recFind(searchKey, 0, nElems-1);
+    public int find(long searchKey) {
+        return recFind(searchKey, 0, nElems - 1);
     }
 
-    private int recFind(long searchKey, int lowerBound, int upperBound){
-        int mid;    //center of the array
-        mid = ((lowerBound + upperBound)/2);
-        if(array[mid] == searchKey)
+    private int recFind(long searchKey, int lowerBound, int upperBound) {
+        int mid = (lowerBound + (upperBound - lowerBound) / 2);    //center of the array
+
+        if (array[mid] == searchKey)
             return mid;    //found the searched item
-        else if(lowerBound > upperBound)
+        else if (lowerBound > upperBound)
             return nElems;  //cant find the item
-        else  {//divide the range into two parts
-            if(array[mid] < searchKey) //its in the beginning half
-                return recFind(searchKey, mid+1, upperBound);
+        else {//divide the range into two parts
+            if (array[mid] < searchKey) //its in the beginning half
+                return recFind(searchKey, mid + 1, upperBound);
             else    //its in the lower half
-                return recFind(searchKey,lowerBound,mid-1);
+                return recFind(searchKey, lowerBound, mid - 1);
         }
     }
 
     //Insert an element in the array in the order it belongs
-    public void insert(long value){
+    public void insert(long value) {
         int i;
         //find out where the new value belongs
-        for(i = 0; i < nElems;i++){
+        for (i = 0; i < nElems; i++) {
             if (array[i] > value)   //linear search
                 break;
         }
         //move the bigger values up
-        for(int j = nElems; j > i;j--){
-            array[j] = array[j-1];
-        }
+        if (nElems - i >= 0)
+            System.arraycopy(array, i, array, i + 1, nElems - i);
         array[i] = value;   //insert the value and inc the size
         nElems++;
     }
 
-    public void display(){
-        for(int i = 0; i < nElems;i++){
+    public void display() {
+        for (int i = 0; i < nElems; i++) {
             System.out.print(array[i] + " ");
         }
         System.out.println("");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int maxSize = 100;
         BinarySearchApp array = new BinarySearchApp(maxSize);
 
@@ -78,10 +77,9 @@ public class BinarySearchApp {
         array.display();
 
         int searchKey = 27;
-        if(array.find(searchKey) != array.size()){
+        if (array.find(searchKey) != array.size()) {
             System.out.println("Found " + searchKey);
-        }
-        else {
+        } else {
             System.out.println("Cant find " + searchKey);
         }
 

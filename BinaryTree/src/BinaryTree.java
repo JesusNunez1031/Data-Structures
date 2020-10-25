@@ -43,29 +43,6 @@ public class BinaryTree {
         root = addRecursive(root, value);
     }
 
-    //Method to create a binary tree
-    public BinaryTree createBinaryTree() {
-        /*
-                     6
-                    / \
-                   4   8
-                  / \ / \
-                3   5 7   9
-            Visual representation of the tree created by this method
-         */
-        BinaryTree bt = new BinaryTree();
-
-        bt.add(6);
-        bt.add(4);
-        bt.add(8);
-        bt.add(3);
-        bt.add(5);
-        bt.add(7);
-        bt.add(9);
-
-        return bt;
-    }
-
     //Finding an element using recursion
     public boolean containsNodeRecursive(Node current, int value) {
         if (current == null) {
@@ -86,10 +63,8 @@ public class BinaryTree {
     @Test
     public void givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElems() {
         BinaryTree bt = createBinaryTree();
-
         assertTrue(bt.containsNode(6));
         assertTrue(bt.containsNode(4));
-
         assertFalse(bt.containsNode(1));
     }
 
@@ -203,7 +178,7 @@ public class BinaryTree {
     }
 
     /*
-    Breadth-First Search: another common type of traversal that visits all the
+    Breadth-First Search (BFS): another common type of traversal that visits all the
     nodes of a level before going to the next level
         - Also known as level order and visits all the levels of the tree starting
         from the root, and from left to right
@@ -230,5 +205,66 @@ public class BinaryTree {
                 queue.add(node.right);
             }
         }
+    }
+
+    //Method to get the depth or height of a binary tree
+    public int getMaxDepth(Node root) {
+        //if the root is null, we return 0 since its an empty tree
+        if (root == null) {
+            return 0;
+        }
+
+        //Add one to the recursive call while the tree has children nodes
+        int maxLeft = getMaxDepth(root.left);
+        int maxRight = getMaxDepth(root.right);
+
+        //return the max value between the left and right nodes and add one to account for the root node
+        return Math.max(maxLeft, maxRight) + 1;
+    }
+
+//    Iterative method to get the depth of a tree
+//    public int getMaxDepth(Node root) {
+//        //if the root is null, we return 0 since its an empty tree
+//        if (root == null) {
+//            return 0;
+//        }
+//        int leftDep = 0;
+//        int rightDep = 0;
+//        //Node iterators for left and right
+//        Node liter = root;
+//        Node riter = root;
+//        while(liter.left != null) {
+//            leftDep++;
+//            liter = liter.left;
+//        }
+//        while (riter.right != null) {
+//            rightDep++;
+//            riter = riter.right;
+//        }
+//        //return the max value between the left and right nodes and add one to account for the root node
+//        return Math.max(leftDep, rightDep) + 1;
+//    }
+
+    //Method to create a binary tree
+    public BinaryTree createBinaryTree() {
+        /*
+                        6
+                     /    \
+                    4       8
+                  /   \   /   \
+                3      5 7     9
+            Visual representation of the tree created by this method
+         */
+        BinaryTree bt = new BinaryTree();
+
+        bt.add(6);
+        bt.add(4);
+        bt.add(8);
+        bt.add(3);
+        bt.add(5);
+        bt.add(7);
+        bt.add(9);
+
+        return bt;
     }
 }

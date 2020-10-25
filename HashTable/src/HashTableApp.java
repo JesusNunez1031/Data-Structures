@@ -8,8 +8,7 @@ public class HashTableApp {
     public static String getString() throws IOException {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
-        String s = br.readLine();
-        return s;
+        return br.readLine();
     }
 
     public static char getChar() throws IOException {
