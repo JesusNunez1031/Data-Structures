@@ -43,6 +43,32 @@ public class BinaryTree {
         root = addRecursive(root, value);
     }
 
+<<<<<<< HEAD
+=======
+    //Method to create a binary tree
+    public BinaryTree createBinaryTree() {
+        /*
+                     6
+                    / \
+                   4   8
+                  / \ / \
+                3   5 7   9
+            Visual representation of the tree created by this method
+         */
+        BinaryTree bt = new BinaryTree();
+
+        bt.add(6);
+        bt.add(4);
+        bt.add(8);
+        bt.add(3);
+        bt.add(5);
+        bt.add(7);
+        bt.add(9);
+
+        return bt;
+    }
+
+>>>>>>> a5db5b263fdd25a21279606eb350effe346448d1
     //Finding an element using recursion
     public boolean containsNodeRecursive(Node current, int value) {
         if (current == null) {
