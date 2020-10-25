@@ -1,12 +1,10 @@
 import org.junit.Test;
 
-import java.lang.annotation.Target;
 import java.util.LinkedList;
 import java.util.Queue;
 
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class BinaryTree {
     public Node root;
@@ -43,8 +41,6 @@ public class BinaryTree {
         root = addRecursive(root, value);
     }
 
-<<<<<<< HEAD
-=======
     //Method to create a binary tree
     public BinaryTree createBinaryTree() {
         /*
@@ -68,7 +64,6 @@ public class BinaryTree {
         return bt;
     }
 
->>>>>>> a5db5b263fdd25a21279606eb350effe346448d1
     //Finding an element using recursion
     public boolean containsNodeRecursive(Node current, int value) {
         if (current == null) {
@@ -270,27 +265,4 @@ public class BinaryTree {
 //        //return the max value between the left and right nodes and add one to account for the root node
 //        return Math.max(leftDep, rightDep) + 1;
 //    }
-
-    //Method to create a binary tree
-    public BinaryTree createBinaryTree() {
-        /*
-                        6
-                     /    \
-                    4       8
-                  /   \   /   \
-                3      5 7     9
-            Visual representation of the tree created by this method
-         */
-        BinaryTree bt = new BinaryTree();
-
-        bt.add(6);
-        bt.add(4);
-        bt.add(8);
-        bt.add(3);
-        bt.add(5);
-        bt.add(7);
-        bt.add(9);
-
-        return bt;
-    }
 }
