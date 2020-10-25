@@ -2,18 +2,33 @@ import java.util.TreeMap;
 import java.util.Map;
 
 public class rabinKarp {
-    public static Map<Character, Integer> codes = new TreeMap<>();     //map to hold all of our mapped values to a specific character literal
+    public static Map<Character, Integer> codes = new TreeMap<>();     //map to hold all of our mapped values to a specific character literal, we use a TreeMap to hold the order in which values are added so display function shows mappings in order
 
 
-//    public int calculateStringValue(String s) {
-//        if(s.length() < 1) {
-//            return 0;
-//        }
-//        int power = 0;
-//
-//        for(int i = 0; i < s.length();i++) {
-//        }
-//    }
+    /*
+    To avoid miss matches, we multiply each letters hashcode value by 10 ^ a power, for example:
+    suppose we want to see how many time "dba" appears in "ccaccaaedba"
+     dba encodes to 7 since d-> 4 + b-> 2 + a-> 1, however, cca also encodes to 7 and our algorithm would have to further
+     compare the string characters to mark a miss match. This would give give us a worst time complexity of O(n * m) where we compare every
+     string. Multiplying each character code by 10 would bring the average time to O(n - m + 1)
+                    Ex:
+                        dba -> (4 * 10^2) + (2 * 10^1) + (1 * 10^0) = 421
+                        cca -> (3 * 10^2) + (3 * 10^1) + (1 * 10^0) = 331
+
+                        so now 421 != 331 and we get no false matches
+         */
+    public static int calculateHashCode(String s) {
+        if (s.length() < 1) {
+            return 0;
+        }
+        int power = s.length() - 1;
+        int hashCode = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            hashCode += codes.get(s.charAt(i)) * Math.pow(10, power--);
+        }
+        return hashCode;
+    }
 
     /*Insert the desired values to be mapped to a character ->
           Example:
@@ -28,7 +43,7 @@ public class rabinKarp {
 
         for (int i = 1; i <= 26; i++) {
             codes.put(firstLetter, i);
-            firstLetter += 1;
+            firstLetter++;
         }
     }
 
@@ -38,8 +53,34 @@ public class rabinKarp {
         }
     }
 
+    //Method returns the number of times a string needle appears in a haystack using rabin Karp algorithm approach to string match
+    public static int countOccurrences(String haystack, String needle) {
+        if (needle.length() == 0 || needle.length() > haystack.length()) {
+            return 0;
+        }
+        //Get the hashcode value of the needle string
+        int neddleHC = calculateHashCode(needle);
+
+        int i = 0, occurrence = 0;
+        while (i <= haystack.length() - needle.length()) {
+            //We look a substring of the haystack equal from i to the length of the needle
+            String str = haystack.substring(i, i + needle.length());
+
+            if (neddleHC == calculateHashCode(str)) {
+                occurrence++;
+            }
+            i++;
+        }
+        return occurrence;
+    }
+
     public static void main(String[] args) {
-        assignStringsCode();
         displayCharacterCodes();
+        assignStringsCode();
+
+        String haystack = "ccaccaaedba";
+        String needle = "dba";
+
+        System.out.printf("Number of times %s appears in %s is %d", needle, haystack, countOccurrences(haystack, needle));
     }
 }
