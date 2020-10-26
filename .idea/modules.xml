@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/HashTableArrays/HashTableArrays.iml" filepath="$PROJECT_DIR$/HashTableArrays/HashTableArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Heap/Heap.iml" filepath="$PROJECT_DIR$/Heap/Heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linked List/Linked List.iml" filepath="$PROJECT_DIR$/Linked List/Linked List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Positional List/Positional List.iml" filepath="$PROJECT_DIR$/Positional List/Positional List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Priority Queue/Priority Queue.iml" filepath="$PROJECT_DIR$/Priority Queue/Priority Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" filepath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" filepath="$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" />

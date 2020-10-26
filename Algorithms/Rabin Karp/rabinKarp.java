@@ -9,8 +9,8 @@ public class rabinKarp {
     To avoid miss matches, we multiply each letters hashcode value by 10 ^ a power, for example:
     suppose we want to see how many time "dba" appears in "ccaccaaedba"
      dba encodes to 7 since d-> 4 + b-> 2 + a-> 1, however, cca also encodes to 7 and our algorithm would have to further
-     compare the string characters to mark a miss match. This would give give us a worst time complexity of O(n * m) where we compare every
-     string. Multiplying each character code by 10 would bring the average time to O(n - m + 1)
+     compare the string characters to mark a miss match. This would give give us a worst time complexity of O(h * n) where
+     n is the needle and h is the haystack since we compare every string. Multiplying each character code by 10 would bring the average time to O(h - n)
                     Ex:
                         dba -> (4 * 10^2) + (2 * 10^1) + (1 * 10^0) = 421
                         cca -> (3 * 10^2) + (3 * 10^1) + (1 * 10^0) = 331
@@ -63,7 +63,7 @@ public class rabinKarp {
 
         int i = 0, occurrence = 0;
         while (i <= haystack.length() - needle.length()) {
-            //We look a substring of the haystack equal from i to the length of the needle
+            //We look at a substring in the haystack equal to i to the length of the needle
             String str = haystack.substring(i, i + needle.length());
 
             if (neddleHC == calculateHashCode(str)) {
