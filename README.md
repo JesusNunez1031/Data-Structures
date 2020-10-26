@@ -1,7 +1,7 @@
 # Data-Structures & Algorithms
 Implementation of various data Structures and Algorithms using Java. Some implementations utilize Java Generics to allow flexibility in usability.
 
-##Data Structures Implemented:
+## Data Structures Implemented:
     - Binary Search Tree
     - Deque [Array & Linked List]
     - Hash Table [Array]
