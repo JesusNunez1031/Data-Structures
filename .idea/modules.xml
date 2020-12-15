@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" filepath="$PROJECT_DIR$/SamplePrograms/SamplePrograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" filepath="$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Union Find/Union Find.iml" filepath="$PROJECT_DIR$/Union Find/Union Find.iml" />
     </modules>
   </component>
 </project>
