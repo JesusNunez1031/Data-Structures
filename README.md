@@ -12,12 +12,13 @@ Implementation of various data Structures and Algorithms using Java. Some implem
     - Stack [Linked List & Array]
 **structures in [ ] are what was used for implementation**
 
-###Resources
-####Books:
+##Resources
+
+######Books:
 * Algorithms 4th Edition by Robert Sedgewick & Kevin Wayne
 * Data Structures and Algorithms in Java 6th Edition by  Michael T. Goodrich, Roberto Tamassia, & Michael H. Goldwasser
 
-####Videos:
+######Videos:
 * [Graph Algorithms](https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw)
 * [CS Topics & Algorithms](https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw)
 * [Data Structures](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLFZuFCCTWGRJCPUQDGubU35zm6R2UEAE9&index=13&t=11037s&ab_channel=freeCodeCamp.org)
