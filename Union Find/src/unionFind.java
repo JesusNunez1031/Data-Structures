@@ -87,7 +87,7 @@ public class unionFind {
 
     //method to display components/set root and size
     public void display() {
-        for(int component = 0; component < numComponents;component++) {
+        for(int component = 0; component < id.length;component++) {
             System.out.printf("Component %d -> root is: %d size: %d\n", component, id[component], sz[component]);
         }
     }
@@ -96,6 +96,7 @@ public class unionFind {
     public int find(int p) {
         //find the root of the component/set 'p'
         int root = p;
+        //search until the value at root doesnt self loop
         while (root != id[root]) {
             root = id[root];
         }
@@ -137,7 +138,7 @@ public class unionFind {
         return numComponents;
     }
 
-    //Unify the components/sets containing elements 'p' and 'q'
+    //Unify the components/sets containing elements 'p' and 'q', p is the destination and q is the source
     public void unify(int p, int q) {
         int root1 = find(p);
         int root2 = find(q);
@@ -145,6 +146,7 @@ public class unionFind {
         //check if the elements are in the same component/set
         if (root1 == root2) {
             System.out.printf("Elements %d and %d belong to the same group", p, q);
+            return;
         }
 
         //Merge the smaller component/set into the larger
