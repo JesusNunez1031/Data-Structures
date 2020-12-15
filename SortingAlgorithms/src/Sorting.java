@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Sorting {
+    /*
+        Sorting Algorithms showcased are Bubble, Selection, and Insertion sort.
+        All time complexities are O(n^2)
+     */
 
     private long[] array;   //ref to array
     private int nElems;     //number of elements
@@ -24,7 +28,8 @@ public class Sorting {
     }
 
     //Apply the sorting method of Bubble Sort
-    public void sortBubble() {
+    public void bubbleSort() {
+        //for every value in the array, we search the array and swap values if the next is greater
         for (int i = nElems - 1; i > 1; i--) {
             for (int j = 0; j < i; j++) {
                 if (array[j] > array[j + 1]) {
@@ -36,20 +41,26 @@ public class Sorting {
 
     //Apply the Selection Sort method
     public void selectionSort() {
-        int min;
         for (int i = 0; i < nElems - 1; i++) {
-            min = i;
+            int min = i; //assume the current value i is the smallest value in the array
+            //search through i + 1 values and find the value smaller than min
             for (int j = i + 1; j < nElems; j++) {
                 if (array[j] < array[min])
-                    min = j; //new min value
-                swap(j, min);    //swap elements
+                    min = j;        //new min value
             }
+            //when inner loop ends, we found a value smaller than the value at index i so we swap them
+            swap(i, min);
         }
     }
 
     //Apply the insertion Sort method
     public void insertionSort() {
         int i, j;
+        /*
+            for every value in the array, we save it in a temp variable, and search backwards from the values position
+            shifting values j to the right that are greater than temp, in the end, place the temp value at position j
+            where j - 1 is < temp
+         */
         for (i = 1; i < nElems; i++) {
             long temp = array[i];    //remove marked item
             j = i;   //start shifts at i
@@ -69,7 +80,7 @@ public class Sorting {
     }
 
     public static void main(String[] args) {
-        int maxSize = 100; //array size
+        int maxSize = 11; //array size
         Sorting array = new Sorting(maxSize);
 
         array.insert(7);
@@ -92,22 +103,21 @@ public class Sorting {
         int user_input = input.nextInt();
 
         switch (user_input) {
-            case 1:
+            case 1 -> {
                 System.out.println("Bubble Sort: ");
-                array.sortBubble(); //Bubble Sort the values
+                array.bubbleSort(); //Bubble Sort the values
                 array.display();
-                break;
-
-            case 2:
+            }
+            case 2 -> {
                 System.out.println("Selection Sort: ");
                 array.selectionSort();
                 array.display();
-                break;
-            case 3:
+            }
+            case 3 -> {
                 System.out.println("Insertion Sort: ");
                 array.insertionSort();
                 array.display();
-                break;
+            }
         }
     }
 }

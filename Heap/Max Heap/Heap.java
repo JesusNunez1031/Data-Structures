@@ -1,7 +1,7 @@
 public class Heap {
 
-    private Node[] heapArray;
-    private int maxSize;    //size of array
+    private Node[] heapArray;   //array of node values
+    private int maxSize;        //size of array
     private int currentSize;    //number of nodes in array
 
     public Heap(int max) {

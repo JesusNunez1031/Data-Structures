@@ -152,19 +152,18 @@ public class BinaryTree {
         assertFalse(bt.containsNode(9));
     }
 
-    //*****************Tree Traversals*****************
-    /*
-    First: Depth-First Search - a type of traversal that goes deep as much as
-    possible in every child before exploring the next sibling
+    /******************Tree Traversals*****************
+    First: Depth-First Search (DFS) - a type of traversal that goes deep as much as possible in every child before
+     exploring the next sibling
         - There are several ways to preform a depth-first search:
-            -in-order, pre-order, and post-order
+            - in-order, pre-order, and post-order
+            - all traversals take O(n) time to complete
      */
-    //In-order consists of first visiting the left sub-tree, then the root node,
-    //and finally the right sub-tree
+    //In-order consists of first visiting the left sub-tree, then the root node and finally the right sub-tree
     public void traverseInOrder(Node node) {
         if (node != null) {
             traverseInOrder(node.left);
-            System.out.print(" " + node.value);
+            System.out.printf("%d, ", node.value);
             traverseInOrder(node.right);
         }
     }
@@ -173,28 +172,24 @@ public class BinaryTree {
     @Test
     public void checkInOrder() {
         BinaryTree bt = createBinaryTree();
-        bt.traverseInOrder(root);
+        bt.traverseInOrder(bt.root);
     }
 
-    //Pre-order traversal visits first the root node, then the left subtree
-    //and finally the right subtree
+    //Pre-order traversal visits the root node first, then the left subtree and finally the right subtree
     public void traversePreOrder(Node node) {
         if (node != null) {
-            System.out.print(" " + node.value);
+            System.out.printf("%d, ", node.value);
             traversePreOrder(node.left);
             traversePreOrder(node.right);
         }
     }
 
-    /*
-    Post-order traversal visits the left subtree, the right subtree, and the
-    root node at the end
-     */
+    //Post-order traversal visits the left subtree, right subtree, and then the root node at the end
     public void traversePostOrder(Node node) {
         if (node != null) {
             traversePostOrder(node.left);
             traversePreOrder(node.right);
-            System.out.print(" " + node.value);
+            System.out.printf("%d, ", node.value);
         }
     }
 
@@ -242,27 +237,4 @@ public class BinaryTree {
         //return the max value between the left and right nodes and add one to account for the root node
         return Math.max(maxLeft, maxRight) + 1;
     }
-
-//    Iterative method to get the depth of a tree
-//    public int getMaxDepth(Node root) {
-//        //if the root is null, we return 0 since its an empty tree
-//        if (root == null) {
-//            return 0;
-//        }
-//        int leftDep = 0;
-//        int rightDep = 0;
-//        //Node iterators for left and right
-//        Node liter = root;
-//        Node riter = root;
-//        while(liter.left != null) {
-//            leftDep++;
-//            liter = liter.left;
-//        }
-//        while (riter.right != null) {
-//            rightDep++;
-//            riter = riter.right;
-//        }
-//        //return the max value between the left and right nodes and add one to account for the root node
-//        return Math.max(leftDep, rightDep) + 1;
-//    }
 }
