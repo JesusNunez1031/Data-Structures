@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 /*
     Union-Find / Disjoint-set data structure implementation using path compression
 
