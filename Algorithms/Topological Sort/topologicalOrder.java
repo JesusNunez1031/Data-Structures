@@ -45,7 +45,7 @@ public class topologicalOrder {
             degree[node[1]]++;
         }
 
-        //Queue used to to a DFS on the DAG
+        //Queue used to to a BFS on the DAG
         Queue<Integer> queue = new LinkedList<>();
 
         //add all the nodes with degree of 0 to the queue
