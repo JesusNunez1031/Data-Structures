@@ -10,6 +10,8 @@ Implementation of various data Structures and Algorithms using Java. Some implem
     - Priority Queue [Linked List]
     - Queue [Linked List & Circular Array]
     - Stack [Linked List & Array]
+    - Trie
+    - Union Find
 **structures in [ ] are what was used for implementation**
 
 ## Resources
