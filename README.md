@@ -12,6 +12,7 @@ Implementation of various data Structures and Algorithms using Java. Some implem
     - Stack [Linked List & Array]
     - Trie
     - Union Find
+    - Fenwick Tree (Binary Indexed Tree)
 **structures in [ ] are what was used for implementation**
 
 ## Resources
