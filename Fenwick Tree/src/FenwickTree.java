@@ -67,15 +67,17 @@ public class FenwickTree {
     //Fenwick Tree array
     public int[] FT;
 
-    /** Initialize a Fenwick Tree of size {@code length}
-     * @param length length of the workspace array
+    /** Initialize a Fenwick Tree of {@code array.length + 1}, +1 to make tree 1 indexed, and construct tree using
+     * values from {@code array}
+     * @param array array of values
      */
-    public FenwickTree(int length) {
-        FT = new int[length];
+    public FenwickTree(int[] array) {
+        FT = new int[array.length + 1]; //+1 since Fenwick Tree is 1 indexed
+        construct(array);   //builds Tree using the given array values
     }
 
     /**
-     * Returns the sum {@code [0, i]}
+     * Returns the sum {@code [1, i]}
      * @param i the index up to where the sum will be calculated
      * @return the sum from start of the array up to {@code i} inclusive
      */
@@ -129,7 +131,6 @@ public class FenwickTree {
      */
     /*
         if we were to call update as (4, 10)
-
             we add 10 to the index value of 4 and we also need to make sure the new addition propagates through the rest
             of the array. We don't need to touch every index, rather, only the indexes at exponentially increasing intervals
 
@@ -148,12 +149,12 @@ public class FenwickTree {
     }
 
     /**
-     * Creates the Fenwick Tree by adding all values from {@code array}
+     * Constructs the Fenwick Tree by adding all values from {@code array}
      * @param array array of values
      */
-    public void populate(int[] array){
-        for(int i = 1; i < array.length;i++) {
-            update(i, array[i]);
+    private void construct(int[] array){
+        for(int i = 1; i <= array.length;i++) {
+            update(i, array[i - 1]);
         }
     }
 

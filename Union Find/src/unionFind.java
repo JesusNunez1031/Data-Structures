@@ -48,10 +48,10 @@
 public class unionFind {
 
     //Number of elements in the union find structure
-    private int size;
+    private final int size;
 
     //Used to track the size of each of the component
-    private int[] sz;
+    private final int[] sz;
 
     /*
         id[i] points to the parent of i, if id[i] = i then i is a root node, p and q are connected if p[i] == q[i]
@@ -59,11 +59,17 @@ public class unionFind {
             i 0 1 2 3 4 5 6 7 8 9
         id[i] 0 1 9 9 9 6 6 7 8 9   5 and 6 are connected | 2 3 4 9 are connected
      */
-    private int[] id;
+    private final int[] id;
 
     //number of components in the union find
     private int numComponents;
 
+    /**
+     * Initialize a Union Find data structure of size {@code size}
+     *
+     * @param size capacity
+     * @throws IllegalAccessException if a negative {@code size} is entered
+     */
     public unionFind(int size) throws IllegalAccessException {
         //check for valid size
         if (size <= 0) {
@@ -83,14 +89,22 @@ public class unionFind {
         }
     }
 
-    //method to display components/set root and size
+    /**
+     * Display components/set's respective roots and sizes
+     */
     public void display() {
-        for(int component = 0; component < id.length;component++) {
+        for (int component = 0; component < id.length; component++) {
             System.out.printf("Component %d -> root is: %d size: %d\n", component, id[component], sz[component]);
         }
     }
 
-    //Find which component/set 'p' belongs to, takes amortized constant time
+
+    /**
+     * Finds which component/set element {@code p} belongs to, takes amortized constant time
+     *
+     * @param p element in the union find data structure
+     * @return the root of element {@code p}
+     */
     public int find(int p) {
         //find the root of the component/set 'p'
         int root = p;
@@ -116,27 +130,57 @@ public class unionFind {
 //        return id[p] = find(id[p]);
 //    }
 
-    //Return if elements 'p' and 'q' are in the same component/set
+
+    /**
+     * Returns {@code true} if element {@code p} and {@code q} are in the same component/set, {@code false} otherwise
+     *
+     * @param p element {@code p}
+     * @param q element {@code q}
+     * @return {@code true} if element {@code p} and {@code q} are connected, {@code false} otherwise
+     */
     public boolean connected(int p, int q) {
         return find(p) == find(q);
     }
 
-    //Return the size of the components/set 'p' belongs to
+
+    /**
+     * Returns the size of the component/set {@code p} belongs to
+     *
+     * @param p element {@code p}
+     * @return the size of the components/set element {@code p} belongs to
+     */
     public int componentSize(int p) {
         return sz[find(p)];
     }
 
-    //Return the number of elements in the union/disjoint set
+
+    /**
+     * Returns the number of elements in the union find data structure
+     *
+     * @return the number of elements in the union/disjoint set
+     */
     public int size() {
         return size;
     }
 
-    //Returns the number of remaining components/sets
+
+    /**
+     * Returns the number of remaining components/sets in the union find
+     *
+     * @return the number of remaining components/sets in the union find
+     */
     public int components() {
         return numComponents;
     }
 
-    //Unify the components/sets containing elements 'p' and 'q', p is the destination and q is the source
+
+    /**
+     * Unifies the components/sets containing elements {@code p} and {@code q}, {@code p} is the destination and {@code q}
+     * is the source. The element that belongs to a larger component/set engulfs the smaller.
+     *
+     * @param p element {@code p}
+     * @param q element {@code q}
+     */
     public void unify(int p, int q) {
         int root1 = find(p);
         int root2 = find(q);

@@ -47,9 +47,9 @@ import java.util.*;
                                   insert()        |     O(m)
                                   remove()        |     O(m)
                                   startsWith()    |     O(p)
-                                  entries()       |     O(L * N * R)
-                           entriesWithPrefix()    |     O(L * N * R)
-                           entriesThatMatch()     |     O(L * N * R)
+                                  entries()       |     O(N * R^m)
+                           entriesWithPrefix()    |     O(R^m)
+                           entriesThatMatch()     |     O(R^m)
                             longestPrefixOf()     |     O(p)
 
       - Memory requirements for Trie are O(R * E * N) where R is the alphabet size, E is the average length of entries
