@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Rabin Karp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sierpinski Triangle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Topological Sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tarjan's Strongly Connected Components" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
